@@ -4,4 +4,3 @@ function allClass(clas, change){
             x[i].innerHTML = change
     }
 }
-window.allClass = allClass

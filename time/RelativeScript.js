@@ -13,10 +13,10 @@ let out = ""
 
 //functions go here
 //relTime('December 6, 2023 12:30:00')
-relTime(new Date())
+//relTime(new Date())
 //formatSetDate('December 6, 2023 12:00:00')
 
-export function relTime(timestated){
+function relTime(timestated){
     let dates = document.getElementsByClassName(timestated)
     //let datetext = document.getElementsByClassName(timestated).innerHTML
     let time = ""

@@ -1,4 +1,4 @@
-function formatSetDate(timestated){
+function formatSetdate(timestated){
 const date = new Date(timestated)
 
 let dates = document.getElementsByClassName(timestated)

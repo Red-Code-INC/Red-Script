@@ -5,4 +5,4 @@ import "./time/RelativeScript.js"
 import "./time/Formatsetdate.js"
 import "./shortcuts/AllTag.js"
 import "./shortcuts/AllName.js"
-
+import "./search.js"

@@ -1,4 +1,4 @@
-function search_website(search) {
+function search(search) {
     let input = document.getElementById(search).value
     input=input.toLowerCase();
     let x = document.getElementsByClassName(search);

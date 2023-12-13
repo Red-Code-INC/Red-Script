@@ -1,6 +1,4 @@
-function allClass(clas, change){
-    let x = document.getElementsByClassName(clas)
-    for (let i = 0 ; i < x.length ; i++){
-            x[i].innerHTML = change
-    }
-}
+import "./css.js"
+import "./red.js"
+import "./shortcuts/AllClass.js"
+import "./time/RelativeScript.js"

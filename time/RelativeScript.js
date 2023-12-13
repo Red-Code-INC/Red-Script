@@ -12,7 +12,7 @@ let amorpm = " AM"
 let out = ""
 
 //functions go here
-//relTime('December 6, 2023 12:30:00')
+//relTime('December 6, 2023 12:00:00')
 //relTime(new Date())
 //formatSetDate('December 6, 2023 12:00:00')
 

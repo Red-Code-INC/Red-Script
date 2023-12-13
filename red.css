@@ -1,1 +1,10 @@
-
+date{
+    font-size:12px;
+    color:#333333;
+}
+red{
+    color:red;
+}
+hide{
+    display:none;
+}

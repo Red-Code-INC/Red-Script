@@ -40,4 +40,4 @@ for (let i = 0 ; i < dates.length ; i++){
     dates[i].innerHTML = out
 }
 }
-window.formatSetDate = formatSetDate
+window.formatSetdate = formatSetdate

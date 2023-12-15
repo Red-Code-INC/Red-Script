@@ -20,10 +20,10 @@ function tab(evt, tabName, tabcontents, tablink,) {
   evt.currentTarget.className += " active";
 }
 // Get the element with id="defaultOpen" and click on it
-function run(){
+addEventLisetner(window.onload){
   for (let i = 0 ; i < dtab.length ; i++){
     dtab[i].click();
   }
 }
-run()
+
 window.tab = tab

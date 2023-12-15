@@ -1,3 +1,3 @@
 <h1><span style="color:red">Red</span>-Script</h1>
 
- simple clean javascript library with some custom tags
+ simple clean <span style="color:red">javascript</span> library with some custom tags

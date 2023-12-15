@@ -1,4 +1,4 @@
-let dtab = document.getElementsByName("defaultOpen")
+let dtab = document.getElementById("defaultOpen")
 function tab(evt, tabName, tabcontents, tablink,) {
   // Declare all variables
   var i, tabcontent, tablinks;
@@ -20,11 +20,6 @@ function tab(evt, tabName, tabcontents, tablink,) {
   evt.currentTarget.className += " active";
 }
 // Get the element with id="defaultOpen" and click on it
-window.addEventLisetner("onload", "loaddefault")
-function loaddefault(){
-  for (let i = 0 ; i < dtab.length ; i++){
-    dtab[i].click();
-  }
-}
+  dtab.click();
 
 window.tab = tab

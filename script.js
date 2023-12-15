@@ -8,11 +8,3 @@ import "./shortcuts/AllName.js"
 import "./search.js"
 import "./time/timer.js"
 import "./dropdown.js"
-import "./tabs.js"
-import "./defaulttab.js"
-
-let dtab = document.getElementsByName("defaultOpen")
-for (let i = 0 ; i < dtab.length ; i++){
-  dtab[i].click();
-}
-

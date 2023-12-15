@@ -1,4 +1,4 @@
-dtab = document.getElementsByName("defaultOpen")
+let dtab = document.getElementsByName("defaultOpen")
 function tab(evt, tabName, tabcontents, tablink,) {
   // Declare all variables
   var i, tabcontent, tablinks;

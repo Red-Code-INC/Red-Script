@@ -12,3 +12,4 @@ function search(search) {
         }
     }
 }
+window.search = search

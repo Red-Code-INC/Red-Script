@@ -3,7 +3,7 @@ function search(search) {
     input=input.toLowerCase();
     let x = document.getElementsByClassName(search);
       
-    for (i = 0; i < x.length; i++) { 
+    for (let i = 0; i < x.length; i++) { 
         if (!x[i].innerHTML.toLowerCase().includes(input)) {
             x[i].style.display="none";
         }

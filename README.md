@@ -1,3 +1,3 @@
 # Red-Script
 
-simple clean javascript library with some custom tags
+# simple clean javascript library with some custom tags

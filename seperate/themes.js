@@ -1,12 +1,14 @@
 var buttons = document.getElementsByClassName("button");
 var activeSheet = document.getElementById("active-stylesheet");
 var clearStorageButton = document.getElementById("clear-storage");
+var dfaulttheme = document.getElementById("dflttheme).innerHTML
+
 
 // Test to see if localStorage already has a value stored
 if (localStorage.getItem("lastActiveSheet")) {
      activeSheet.setAttribute("href", localStorage.getItem("lastActiveSheet"));
 } else {
-    activeSheet.setAttribute("href", "https://cdn.jsdelivr.net/gh/Sideswipe5/Red-CSS@1.0.7/themes/main/default.css")
+    activeSheet.setAttribute("href", dfaulttheme)
 } 
 
 // Assign the event lister to each button

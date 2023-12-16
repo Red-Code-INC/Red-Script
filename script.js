@@ -7,7 +7,6 @@ import "./shortcuts/AllTag.js"
 import "./shortcuts/AllName.js"
 import "./search.js"
 import "./time/timer.js"
-import "./dropdown.js"
 import "./tabs.js"
 let dfault = document.getElementsByName('defaultOpen')
 for (let i = 0 ; i < dfault.length ; i++){
@@ -41,4 +40,23 @@ function switchStyle() {
 // Wrapper function to localStorage.clear
 function clearStorage() {
   localStorage.clear();
+}
+
+var acc = document.getElementsByClassName('accordion');
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    /* Toggle between adding and removing the "active" class,
+    to highlight the button that controls the panel */
+    this.classList.toggle("active");
+
+    /* Toggle between hiding and showing the active panel */
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
 }

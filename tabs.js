@@ -21,6 +21,6 @@ function tab(evt, tabName, tabcontents, tablink,) {
 }
 // Get the element with id="defaultOpen" and click on it
 for (let i = 0 ; i < dtab.length ; i++){
-dtab[i].click();
+dtab[i].style.display = "block"
 }
 window.tab = tab

@@ -1,6 +1,9 @@
 function live(){
   var display = new Date().toLocaleTimeString();
-  document.getElementById('live1').innerHTML = display;
+  let output = document.getElementsByClassName('live1')
+  for (let i = 0 ; i < output.length ; i++){
+    output[i].innerHTML = display;
+  }
   setTimeout(displayClock, 1000); 
 }
 live()

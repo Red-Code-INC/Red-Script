@@ -3,4 +3,4 @@ function live(){
   document.getElementById('live1').innerHTML = display;
   setTimeout(displayClock, 1000); 
 }
-window.live = live
+live()

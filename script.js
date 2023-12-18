@@ -8,6 +8,10 @@ import "./shortcuts/AllName.js"
 import "./search.js"
 import "./time/timer.js"
 import "./tabs.js"
+
+
+
+
 let dfault = document.getElementsByName('defaultOpen')
 for (let i = 0 ; i < dfault.length ; i++){
 dfault[i].click();

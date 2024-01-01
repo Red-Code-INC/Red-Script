@@ -1,4 +1,4 @@
-import "./time.js"
+import "./RelativeScript.js"
 let outpts = document.querySelectorAll("[date]")
 
 for (let i = 0 ; i < outpts.length ; i++){

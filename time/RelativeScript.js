@@ -17,11 +17,11 @@ let out = ""
 //formatSetDate('December 6, 2023 12:00:00')
 
 function relTime(timestated){
-    let dates = document.getElementsByClassName(timestated)
+		let dtes =  "[date= " + "'" + timestated + "'" +"]"
+    let dates = document.querySelectorAll(dtes)
     //let datetext = document.getElementsByClassName(timestated).innerHTML
     let time = ""
     let x = Math.round(current - new Date(timestated))
-    console.log(Math.round(x/day))
     let sv = Math.round(x/sec)
     let mv = Math.round(x/min)
     let hv = Math.round(x/hour)
@@ -78,4 +78,6 @@ function relTime(timestated){
                 //console.log(time);
             }
 }
-window.relTime = relTime
+let $R = relTime
+window.$R = $R
+

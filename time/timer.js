@@ -1,10 +1,11 @@
-function clock(timeset, location) {
+function timer(timeset, location) {
   var myTimer = setInterval(myClock, 1000);
   var c = (timeset); //Initially set to 1 hour
 
-while(c != 0){
+
+
   function myClock() {
-    
+    --c
     var seconds = c % 60; // Seconds that cannot be written in minutes
     var minutes = (c - seconds) / 60; // Gives the seconds that COULD be given in minutes
     var minutesLeft = minutes % 60; // Minutes that cannot be written in hours
@@ -17,5 +18,4 @@ while(c != 0){
     }
   }
 }
-}
-window.clock = clock
+window.timer = timer

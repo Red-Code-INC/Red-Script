@@ -9,6 +9,7 @@ import "./search.js"
 import "./time/timer.js"
 import "./tabs.js"
 import "./shortcuts/AllAttribute.js"
+import "./time/live.js"
 
 let outpts = document.querySelectorAll("[date]")
 

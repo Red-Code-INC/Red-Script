@@ -18,4 +18,7 @@ function timer(timeset, location) {
     }
   }
 }
-window.timer = timer
+
+let $TR = timer
+
+window.$TR = $TR

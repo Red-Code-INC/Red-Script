@@ -1,4 +1,11 @@
 import "./RelativeScript.js"
+import "./FormatSetDate.js"
+import "./live.js"
+import "./timer.js"
+import "./FormatSetDate24.js"
+import "./
+
+
 let outpts = document.querySelectorAll("[date]")
 
 for (let i = 0 ; i < outpts.length ; i++){

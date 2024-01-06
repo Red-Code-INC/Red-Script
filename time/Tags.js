@@ -5,7 +5,7 @@ import "./timer.js"
 //import "./FormatSetDate24.js"
 
 
-let outpts = document.querySelectorAll("[date]")
+let outpts = document.getElementsByTagName("date")
 
 for (let i = 0 ; i < outpts.length ; i++){
 let time = outpts[i].getAttribute("date")

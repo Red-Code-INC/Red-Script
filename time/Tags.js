@@ -1,7 +1,7 @@
 import "./RelativeScript.js"
 import "./FormatSetDate.js"
-import "./live.js"
-import "./timer.js"
+//import "./live.js"
+//import "./timer.js"
 //import "./FormatSetDate24.js"
 
 

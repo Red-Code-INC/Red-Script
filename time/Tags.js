@@ -2,7 +2,7 @@ import "./RelativeScript.js"
 import "./FormatSetDate.js"
 import "./live.js"
 import "./timer.js"
-import "./FormatSetDate24.js"
+//import "./FormatSetDate24.js"
 
 
 let outpts = document.querySelectorAll("[date]")
@@ -17,7 +17,7 @@ for(let i = 0 ; i < dted.length ; i++){
     tme = dted[i].getAttribute("time")
     $D(tme)
 }
-let ct = ""
+/*let ct = ""
 let cut = document.getElementsByTagName("chrono")
 for (let i = 0 ; i < cut.length ; i++){
     $CD()
@@ -34,4 +34,4 @@ let CZ4 = document.getElementsByTagName('C24')
 for (let i = 0 ; i < CZ4.length ; i++){
     $C24()
 }
-
+*/

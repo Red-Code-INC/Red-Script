@@ -9,7 +9,7 @@ let outpts = document.getElementsByTagName("date")
 
 for (let i = 0 ; i < outpts.length ; i++){
 let time = outpts[i].getAttribute("date")
-$R(time)
+outpts[i].innerHTML = $R(time)
 }
 let tme = ""
 let dted = document.getElementsByTagName("time")

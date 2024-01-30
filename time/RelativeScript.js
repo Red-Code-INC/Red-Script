@@ -17,8 +17,6 @@ let out = ""
 //formatSetDate('December 6, 2023 12:00:00')
 
 function relTime(timestated){
-		let dtes =  "[date= " + "'" + timestated + "'" +"]"
-    let dates = document.querySelectorAll(dtes)
     //let datetext = document.getElementsByClassName(timestated).innerHTML
     let time = ""
     let x = Math.round(current - new Date(timestated))
@@ -73,10 +71,7 @@ function relTime(timestated){
                     time = yv+" years ago"
                 }
             }
-            for (let i = 0 ; i < dates.length ; i++){
-                dates[i].innerHTML = time;
-                //console.log(time);
-            }
+            return time
 }
 let $R = relTime
 window.$R = $R

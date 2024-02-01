@@ -23,7 +23,7 @@ dfault[i].click();
 }
 var acc = document.getElementsByClassName('accordion');
 var i;
-window.dropdownfunc = dropdownfunc
+
 for (i = 0; i < acc.length; i++) {
   acc[i].addEventListener("click", function(){
     /* Toggle between adding and removing the "active" class,

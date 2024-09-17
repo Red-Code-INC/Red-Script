@@ -61,11 +61,3 @@ for (let i = 0 ; i < tri.length ; i++){
     tri[i].innerHTML = new Date()
 }
 
-function notification(){
-    let x = document.get('div')
-    div.className = "alert"
-    x.innerHTML = "<span class='closebtn' onclick='this.parentElement.style.display='none';'>&times;</span> <strong>Hey</strong> need A CSS framwork or are looking for something else? checkout our other sites down in the banner below"
-    document.getElementsByTagName("body")[0].appendChild(div)
-    setTimeout("notification",100000)
-}
-notification()

@@ -1,0 +1,171 @@
+@import "./searchmobile.css";
+@import "./logos.css"; 
+
+
+@media screen and (max-width:800px){
+    [bannerlink]{
+    position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+    font-size:12px;
+    padding-top: 5px;
+    padding-bottom:5px;
+    text-align:center;
+}
+    .bannericon{
+        width:12px;
+    }
+    .bannericon2{
+        width:14px;
+    }
+}
+@media screen and (min-width:801px){
+    #search{
+    color:white;
+    font-size:20px;
+    vertical-align:text-bottom;
+    background-color:red;
+    border-right:7px solid red;
+    border-left:7px solid red;
+    border-bottom:11px solid red;
+    border-top:8px solid red;
+    }
+    .bannericon{
+        width:20px;
+    }
+    .bannericon2{
+        width:22px;
+    }
+}
+@media screen and (min-width:1000px){
+    [bannerlink]{
+    position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+    font-size:20px;
+    padding-top: 15px;
+    padding-bottom:15px;
+    text-align:center;
+}
+.middle{
+    position:absolute;
+    left:30%;
+}
+}
+body{
+    overflow-x:hidden;
+}
+.bannerlinks{
+    display:inline-block;
+}
+red{
+    color:red;
+}
+.tabcontent{
+    display:none;
+}
+.middle{
+    text-align:center;
+    position:absolute;
+    left:50%;
+}
+.func{
+    color:red;
+}
+.inquotes{
+    color:blue;
+}
+.function{
+    color:red;
+}
+::placeholder{
+    color:white;
+}
+
+.accordion{
+    padding:none
+}
+.backlinks{
+    color:white;!important
+    text-decoration:none;!important
+}
+[bannerlink]{
+    background-color:#c00000;
+}
+[name=back]{
+    width:50%;
+}
+.backbutton{
+    width:50px;
+    height:30px;
+    color:white;
+    background-color:red;
+    border:none;
+}
+.backbutton:hover{
+    background-color:#e60000;
+}
+.searchbutton{
+    position:absolute;
+    border:none;
+    height:30px;
+    border-top:20px solid red;
+    width:30px;
+    vertical-align:text-bottom;
+    text-align:center;
+    color:white;
+    background-color:red;
+}
+[bold]{
+    font-weight:bold;
+    font-style:italic;
+}
+
+@keyframes bannerlinks{
+    0%{
+        content:"red";
+    }
+}
+werf{
+    color:red;
+}
+[red]{
+    color:red;
+}
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+.rc-redcode{
+    width:40px;
+}
+[img]{
+    width:40px;
+    vertical-align:text-bottom;
+}
+#reference:focus{
+    background-color:silver;
+    outline:none;
+}
+#referencelist{
+    /*overflow-y:scroll;*/
+    /*height:200px;*/
+}

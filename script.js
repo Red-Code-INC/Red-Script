@@ -1,4 +1,3 @@
-import "./red.js"
 import "./shortcuts/AllClass.js"
 import "./time/Tags.js"
 import "./shortcuts/AllTag.js"

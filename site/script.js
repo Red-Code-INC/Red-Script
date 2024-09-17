@@ -6,19 +6,33 @@ async function populate() {
   const Red = await response.json();
 //   let Red_Icons = "1.3.6"
     let LINKS = document.querySelectorAll("[data-link]")
-    LINKS.forEach((link) =>{
-        if (link.getAttribute("data-link") == "red-code"){
-            link.setAttribute("href",Red.Code)
-        } else if (link.getAttribute("data-link") == "red-script"){
-            link.setAttribute("href",Red.Script)
-        } else if (link.getAttribute("data-link") == "red-css"){
-            link.setAttribute("href",Red.CSS)
-        } else if (link.getAttribute("data-link") == "red-html"){
-            link.setAttribute("href",Red.HTML)
-        } else if (link.getAttribute("data-link") == "red-icons"){
-            link.setAttribute("href",Red.Icons)
-        }
-    })
+    for (let i = 0; i < LINKS.length; i++){
+    
+      if (LINKS[i].getAttribute("data-link") == "red-code"){
+        LINKS[i].setAttribute("href",Red.Code)
+      } else if (LINKS[i].getAttribute("data-link") == "red-script"){
+        LINKS[i].setAttribute("href",Red.Script)
+      } else if (LINKS[i].getAttribute("data-link") == "red-css"){
+        LINKS[i].setAttribute("href",Red.CSS)
+      } else if (LINKS[i].getAttribute("data-link") == "red-html"){
+        LINKS[i].setAttribute("href",Red.HTML)
+      } else if (LINKS[i].getAttribute("data-link") == "red-icons"){
+        LINKS[i].setAttribute("href",Red.Icons)
+      }
+  }
+    // LINKS.forEach((link) =>{
+    //     if (link.getAttribute("data-link") == "red-code"){
+    //         link.setAttribute("href",Red.Code)
+    //     } else if (link.getAttribute("data-link") == "red-script"){
+    //         link.setAttribute("href",Red.Script)
+    //     } else if (link.getAttribute("data-link") == "red-css"){
+    //         link.setAttribute("href",Red.CSS)
+    //     } else if (link.getAttribute("data-link") == "red-html"){
+    //         link.setAttribute("href",Red.HTML)
+    //     } else if (link.getAttribute("data-link") == "red-icons"){
+    //         link.setAttribute("href",Red.Icons)
+    //     }
+    // })
   }
 populate()
 // let body = document.getElementsByTagName("body")[0]
